@@ -1,3 +1,4 @@
+
 # How to use it? 
 
 * Clone this repository somewhere on your project path. Root recommended. 
@@ -16,4 +17,18 @@ In my case, they don't work. Why? Probably because the latest PhpStorm doesn't l
 # Why doesn't PhpStorm support Laravel auto completion without helpers? 
 
 Because Laravel uses a lot of magic - most prominent is the heavy usages of "class_alias". PhpStorm is not yet intelligent enough to understand the sorcery hidden within the very core of Laravel :)
+
+
+
+# ** IMPORTANT **
+
+Support is being added for only the most popular/used methods. Please feel free to request/add your own to the codebase. 
+
+Any forks and contribution is most appreciated :)
+
+# How to contribute? 
+
+Say, you want to contribute code completion for "View::make" - as you can see we need a "View" class with a static method - "make". See if the class already exists, if not create it. Add the method and send a pull request. 
+
+
 
