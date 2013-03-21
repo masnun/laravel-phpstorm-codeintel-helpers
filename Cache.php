@@ -7,24 +7,16 @@
 
 class Cache
 {
-    /**
-     * Determines if the key exists
-     * @param $key
-     * @return bool
-     */
+
     public static function has($key)
     {
-        return true || false;
+        return TRUE;
     }
 
-    /**
-     * Retrieves the key
-     * @param $key
-     * @param null $default
-     * @return string
-     */
     public static function get($key, $default = null)
     {
-        return (string)$default;
+        return TRUE;
     }
+
+
 }
